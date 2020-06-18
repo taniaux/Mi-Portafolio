@@ -48,3 +48,14 @@ color: #660066;
 .imageWorks {
 background-color: #660066;
 }
+@media (min-width: 320px) and (max-width: 416px) {
+#contact h3 {
+content: 'MI EXPERIENCIA' !important;
+text-decoration:underline;
+}
+}
+@media (max-width: 576px){
+#contact p {
+content: 'Escribe tu pregunta aquí';
+}
+}
