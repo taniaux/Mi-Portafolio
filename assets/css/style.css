@@ -1,0 +1,50 @@
+body {
+font-family: 'Oswald', sans-serif;
+}
+
+.nav-color, footer {
+background-color: #660066;
+}
+header { background-image:
+url('../img/face foto 1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding-top: 300px;
+padding-bottom:10rem;
+}
+
+.titulo {
+padding-right: 200px;
+padding-left: 280px;
+}
+header h1 {
+padding-top: 80px;
+}
+
+header p {
+text-decoration-line: overline;
+padding-top: 20px;
+}
+.btn-lg {
+background-color: #660066;
+}
+.buttonImage {
+background-color: #660066;
+border: 1px solid #DDDDDD;
+color: #373A3C;
+}
+.buttonImage:hover {
+    background-color:  #000000;
+    color: #373A3C;
+}
+h3 {
+text-decoration: underline;
+line-height: 0.9;
+}
+.icono {
+color: #660066;
+}
+.imageWorks {
+background-color: #660066;
+}
