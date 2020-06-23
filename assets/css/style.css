@@ -40,11 +40,15 @@ color: #373A3C;
 }
 .borde {
    border-top: 10px solid #000000;
-   padding-top: 100px;
+   padding-top: 50px;
+   width:300px;
+   margin: 0 auto;
 }
 .borde1 {
-  border-top: 2pt solid #ffffff;
+  border-top: 10px solid #ffffff;
   padding-top: 100px;
+  width: 300px;
+  margin: 0 auto;
 }
 .icono {
 color: #660066;
@@ -52,8 +56,12 @@ color: #660066;
 .imageWorks {
 background-color: #660066;
 }
-@media (min-width: 320px) and (max-width: 516px) {
+
 .media:before {
-content: 'MI EXPERIENCIA' !important;
+  content: "CONTACTO" !important;
+  text-align: center !important; 
 }
-}
+@media (min-width: 320px) and (max-width: 516px) {
+  .media:before {
+    content: "MI EXPERIENCIA" !important;
+  }
